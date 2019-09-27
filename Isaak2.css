@@ -1,0 +1,81 @@
+#police {
+	position:relative; 
+	width:180px; 
+	padding-right:30px; 
+	font-family: gabriola;
+	font-weight: bold;
+	font-size: 200%;
+	margin : 80px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-shadow:12px 10px 3px #949194;
+	float:right;
+}
+#police2{
+	position:left; 
+	width:180px; 
+	padding-right:30px; 
+	text-align:center;
+	margin : 80px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+#img {
+	border-radius: 10px;
+	border-width:1.5px;
+	border-color: black;
+	border-style: solid;
+	width: 190px;
+	float: left;
+}
+
+#bordures {
+	margin: 0px;
+	border-spacing: 10px;
+	text-align:justify;
+	margin-top: 10px;
+}
+
+#tourne {
+	transform: rotate(348deg);
+	font-style: bolt;
+	font-variant: small-caps;
+	font-size: 100%;
+}
+
+.cadre {
+	height: 250px;
+}
+
+.cadre2 {
+	position:left; 
+	text-align:justify;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-style: solid;
+	border-color:black;
+	border-radius: 10px;
+	border-width:1.5px;
+	border-color: black;
+	border-style: solid;
+}
+
+.page {
+	column-count: 2;
+	column-rule: black solid;
+}
+
+h3 {
+	font-family: TeX Gyre Schola, serif;
+	font-variant: small-caps;
+	font-size: 135%;
+	border-bottom:1px dashed black;
+	margin-top: 10%;
+	margin-bottom: 2%;
+}
+
+body {
+	background-image: url("Image/fondfleur.jpg");
+	background-size: cover;
+}
