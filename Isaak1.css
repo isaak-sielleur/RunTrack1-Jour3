@@ -1,0 +1,109 @@
+.page {
+	margin : 10px;
+	padding : 10px;
+			}
+
+.titre {
+	color: blue;
+
+}
+
+.cadre {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: white;
+	margin-right: 880px;
+	box-shadow:inset -12px 16px 10px #c2bcc2;
+}
+
+.cadre2 {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow:inset -12px 16px 10px #c2bcc2;
+}
+
+#img {
+	border-radius: 10px;
+	border-width:1.5px;
+	border-color: black;
+	border-style: solid;
+	position:absolute right;
+	width: 270px;
+	float: right;
+}
+
+#police{
+	font-family: gabriola;
+	font-weight: bold;
+	font-size: 200%;
+	margin : 10px;
+	text-shadow:12px 10px 3px #949194;
+}
+
+#police2{
+	font-family: constantia;
+	font-size: 90%;
+}
+
+#police3 {
+	font-family: Franklin Gothic;
+	font-weight: bold;
+	font-size: 200%;
+	margin : 10px;
+}
+
+#bordures {
+	margin: 20px;
+	border-spacing: 20px;
+}
+
+#tourne {
+	transform: rotate(348deg);
+	font-style: bolt;
+	font-variant: small-caps;
+}
+
+
+h3 {
+	font-family: TeX Gyre Schola, serif;
+	font-variant: small-caps;
+	font-size: 180%;
+	border-bottom:1px dashed black;
+}
+
+h4 {
+	font-family: Lucida Sans Unicode, serif;
+	font-variant: small-caps;
+	font-size: 125%;
+	font-style: bolt;
+	margin : 20px;
+}
+
+p {
+	font-family: Arial;
+	margin: 30px;
+}
+
+tr {
+	font-family: Arial;
+}
+
+body {
+	background-image: url("Image/fond2.jpg");
+	background-size: contain;
+}
+
+a {
+	text-decoration:underline;
+	color: black;
+}
+
+a:hover {
+  color: blue;
+  font-size: 120%;
+}
